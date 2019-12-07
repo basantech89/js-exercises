@@ -3,5 +3,3 @@ node_js:
   - '12.10.0'
 script:
   - yarn test
-after_script:
-  - node .submission-system/submitter.js
